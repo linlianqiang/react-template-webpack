@@ -1,8 +1,18 @@
+/*
+ * @Description: 
+ * @Date: 2022-03-14 11:38:22
+ * @LastEditTime: 2022-03-31 15:32:51
+ */
+/*
+ * @Description: 
+ * @Date: 2022-03-14 11:38:22
+ * @LastEditTime: 2022-03-23 16:58:22
+ */
 /**
  * @description :容器组件，维护state，不负责渲染。
  * 
  */
-import Home from '../UI/home'
+import Home from '../UI'
 import { myAction } from '../../../store/actions/msgCount'
 import { connect } from 'react-redux'
 

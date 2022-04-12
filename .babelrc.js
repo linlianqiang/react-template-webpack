@@ -1,5 +1,5 @@
-{
-    "presets": [
+module.exports = {
+    presets: [
         [
             "@babel/env",
             {
@@ -16,7 +16,16 @@
         [
             "@babel/preset-react",
             {}
-        ]
+        ],
+        [
+            "@babel/preset-typescript",
+            {
+              "isTSX": true,
+              "allExtensions": true,
+              "allowNamespaces": true,
+              "allowDeclareFields": true
+            }
+          ]
     ],
     "plugins": [
         "@babel/plugin-proposal-class-properties"
